@@ -1,0 +1,405 @@
+[
+  {
+    "id": 1,
+    "rows": 1,
+    "columns": [
+      "postings"
+    ],
+    "seconds": 0.010087583010317758,
+    "status": "passed"
+  },
+  {
+    "id": 2,
+    "rows": 1,
+    "columns": [
+      "companies"
+    ],
+    "seconds": 0.00043008300417568535,
+    "status": "passed"
+  },
+  {
+    "id": 3,
+    "rows": 1,
+    "columns": [
+      "job_country",
+      "postings"
+    ],
+    "seconds": 0.001900749994092621,
+    "status": "passed"
+  },
+  {
+    "id": 4,
+    "rows": 1,
+    "columns": [
+      "skills"
+    ],
+    "seconds": 0.00031108300026971847,
+    "status": "passed"
+  },
+  {
+    "id": 5,
+    "rows": 1,
+    "columns": [
+      "mean_salary",
+      "salary_n"
+    ],
+    "seconds": 0.003909624996595085,
+    "status": "passed"
+  },
+  {
+    "id": 6,
+    "rows": 1,
+    "columns": [
+      "median_salary"
+    ],
+    "seconds": 0.008483375000650994,
+    "status": "passed"
+  },
+  {
+    "id": 7,
+    "rows": 1,
+    "columns": [
+      "usable_pct"
+    ],
+    "seconds": 0.003549500004737638,
+    "status": "passed"
+  },
+  {
+    "id": 8,
+    "rows": 2,
+    "columns": [
+      "remote_status",
+      "postings"
+    ],
+    "seconds": 0.008132375005516224,
+    "status": "passed"
+  },
+  {
+    "id": 9,
+    "rows": 50,
+    "columns": [
+      "job_id",
+      "job_title",
+      "observation_date"
+    ],
+    "seconds": 0.0003446670016273856,
+    "status": "passed"
+  },
+  {
+    "id": 10,
+    "rows": 4,
+    "columns": [
+      "experience_level",
+      "postings",
+      "salary_n",
+      "mean_salary"
+    ],
+    "seconds": 0.01373858300212305,
+    "status": "passed"
+  },
+  {
+    "id": 11,
+    "rows": 1,
+    "columns": [
+      "job_country",
+      "postings",
+      "salary_n",
+      "mean_salary"
+    ],
+    "seconds": 0.005996209001750685,
+    "status": "passed"
+  },
+  {
+    "id": 12,
+    "rows": 33,
+    "columns": [
+      "employment_type",
+      "postings",
+      "salary_n",
+      "mean_salary"
+    ],
+    "seconds": 0.010556959008681588,
+    "status": "passed"
+  },
+  {
+    "id": 13,
+    "rows": 922,
+    "columns": [
+      "platform",
+      "postings",
+      "salary_n",
+      "mean_salary"
+    ],
+    "seconds": 0.01126958298846148,
+    "status": "passed"
+  },
+  {
+    "id": 14,
+    "rows": 5,
+    "columns": [
+      "salary_band",
+      "postings",
+      "salary_n",
+      "mean_salary"
+    ],
+    "seconds": 0.009318500000517815,
+    "status": "passed"
+  },
+  {
+    "id": 15,
+    "rows": 2,
+    "columns": [
+      "remote_status",
+      "postings",
+      "salary_n",
+      "mean_salary"
+    ],
+    "seconds": 0.009531207993859425,
+    "status": "passed"
+  },
+  {
+    "id": 16,
+    "rows": 13177,
+    "columns": [
+      "company_name",
+      "postings",
+      "company_rank"
+    ],
+    "seconds": 0.01474195800255984,
+    "status": "passed"
+  },
+  {
+    "id": 17,
+    "rows": 16,
+    "columns": [
+      "company_name",
+      "salary_n",
+      "mean_salary"
+    ],
+    "seconds": 0.027339624997694045,
+    "status": "passed"
+  },
+  {
+    "id": 18,
+    "rows": 134,
+    "columns": [
+      "skill",
+      "demand"
+    ],
+    "seconds": 0.004581457993481308,
+    "status": "passed"
+  },
+  {
+    "id": 19,
+    "rows": 66,
+    "columns": [
+      "skill",
+      "salary_n",
+      "mean_salary"
+    ],
+    "seconds": 0.08032737500616349,
+    "status": "passed"
+  },
+  {
+    "id": 20,
+    "rows": 53,
+    "columns": [
+      "skill",
+      "demand",
+      "salary_n",
+      "mean_salary"
+    ],
+    "seconds": 0.0885943750035949,
+    "status": "passed"
+  },
+  {
+    "id": 21,
+    "rows": 30,
+    "columns": [
+      "skill_a",
+      "skill_b",
+      "pair_count"
+    ],
+    "seconds": 0.3168442910100566,
+    "status": "passed"
+  },
+  {
+    "id": 22,
+    "rows": 2318,
+    "columns": [
+      "company_id",
+      "job_title",
+      "salary_year_avg"
+    ],
+    "seconds": 0.036703333011246286,
+    "status": "passed"
+  },
+  {
+    "id": 23,
+    "rows": 9022,
+    "columns": [
+      "job_id",
+      "salary_year_avg",
+      "salary_quartile"
+    ],
+    "seconds": 0.011277249999693595,
+    "status": "passed"
+  },
+  {
+    "id": 24,
+    "rows": 29,
+    "columns": [
+      "posted_month",
+      "postings",
+      "previous",
+      "change_pct"
+    ],
+    "seconds": 0.010494749993085861,
+    "status": "passed"
+  },
+  {
+    "id": 25,
+    "rows": 4,
+    "columns": [
+      "experience_level",
+      "mean_salary",
+      "salary_n",
+      "differential_pct"
+    ],
+    "seconds": 0.013685375000932254,
+    "status": "passed"
+  },
+  {
+    "id": 26,
+    "rows": 12085,
+    "columns": [
+      "job_id",
+      "job_title"
+    ],
+    "seconds": 0.05632279100245796,
+    "status": "passed"
+  },
+  {
+    "id": 27,
+    "rows": 6,
+    "columns": [
+      "skill_type",
+      "postings"
+    ],
+    "seconds": 0.0997512089961674,
+    "status": "passed"
+  },
+  {
+    "id": 28,
+    "rows": 4279,
+    "columns": [
+      "job_id",
+      "salary_year_avg"
+    ],
+    "seconds": 0.008095875004073605,
+    "status": "passed"
+  },
+  {
+    "id": 29,
+    "rows": 13177,
+    "columns": [
+      "company_id",
+      "remote_jobs",
+      "unknown_jobs",
+      "postings"
+    ],
+    "seconds": 0.036195708002196625,
+    "status": "passed"
+  },
+  {
+    "id": 30,
+    "rows": 2,
+    "columns": [
+      "salary_source",
+      "postings",
+      "valid_salaries"
+    ],
+    "seconds": 0.009807249996811152,
+    "status": "passed"
+  },
+  {
+    "id": 31,
+    "rows": 1,
+    "columns": [
+      "invalid_salary"
+    ],
+    "seconds": 0.0037176670011831447,
+    "status": "passed"
+  },
+  {
+    "id": 32,
+    "rows": 30,
+    "columns": [
+      "location",
+      "postings"
+    ],
+    "seconds": 0.009611707995645702,
+    "status": "passed"
+  },
+  {
+    "id": 33,
+    "rows": 10859,
+    "columns": [
+      "company_name"
+    ],
+    "seconds": 0.03185308299725875,
+    "status": "passed"
+  },
+  {
+    "id": 34,
+    "rows": 26,
+    "columns": [
+      "skill_count",
+      "postings"
+    ],
+    "seconds": 0.02898454200476408,
+    "status": "passed"
+  },
+  {
+    "id": 35,
+    "rows": 129,
+    "columns": [
+      "skill",
+      "postings"
+    ],
+    "seconds": 0.03577945800498128,
+    "status": "passed"
+  },
+  {
+    "id": 36,
+    "rows": 29,
+    "columns": [
+      "posted_month",
+      "postings",
+      "coverage_pct"
+    ],
+    "seconds": 0.010258833004627377,
+    "status": "passed"
+  },
+  {
+    "id": 37,
+    "rows": 8,
+    "columns": [
+      "experience_level",
+      "remote_status",
+      "postings"
+    ],
+    "seconds": 0.01982233300805092,
+    "status": "passed"
+  },
+  {
+    "id": 38,
+    "rows": 1,
+    "columns": [
+      "minimum",
+      "maximum"
+    ],
+    "seconds": 0.0037867079954594374,
+    "status": "passed"
+  }
+]

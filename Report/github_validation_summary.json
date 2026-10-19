@@ -1,0 +1,26 @@
+{
+  "database_counts": {
+    "company_dim": 13177,
+    "job_postings_fact": 56004,
+    "skills_dim": 134,
+    "skills_job_dim": 181468
+  },
+  "query_count": 38,
+  "max_query_seconds": 0.3168442910100566,
+  "academic_pdf_pages": 89,
+  "academic_main_pages": 70,
+  "app_pages_script_tested": 11,
+  "screenshots": "blocked: browser origin access denied",
+  "pbix": "not built: Power BI Desktop unavailable",
+  "workbook_formula_recalculation": "LibreOffice cached values reconciled with Python and SQL",
+  "relocated_package_rehearsal": "Extracted ZIP to a separate directory without duplicating raw snapshot; all 81 tests passed using the existing verified virtual environment. This is not a fresh dependency installation.",
+  "tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "81",
+    "time": "21.157"
+  },
+  "privacy_note": "Machine hostname and execution timestamp omitted; original evidence remains in the local project."
+}

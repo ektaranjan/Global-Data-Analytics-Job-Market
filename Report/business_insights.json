@@ -1,0 +1,222 @@
+[
+  {
+    "question": "How many observations survive cleaning?",
+    "result": "56,004 retained from 61,953; 5,949 composite duplicates removed.",
+    "sample_size": 61953,
+    "evidence": "quality.json",
+    "interpretation": "Duplicate indexing inflates raw volume.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Compare cleaned observations rather than raw rows.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How complete is usable salary?",
+    "result": "9,022 usable salaries; 16.11% coverage.",
+    "sample_size": 56004,
+    "evidence": "query_07.csv",
+    "interpretation": "Disclosed salaries represent a selected subset.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Inspect the disclosed sample size before using salary rankings.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "What is the observed salary center?",
+    "result": "Median 88,400; mean 92,131, source units.",
+    "sample_size": 9022,
+    "evidence": "query_05.csv and query_06.csv",
+    "interpretation": "Mean and median describe different aspects of the salary distribution.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Verify currency and relevant experience before benchmarking.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "What is the middle salary spread?",
+    "result": "25th percentile 62,400; 75th percentile 116,812.",
+    "sample_size": 9022,
+    "evidence": "charts/salary_distribution.png",
+    "interpretation": "The middle half describes the disclosed sample.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Research a salary range rather than one point estimate.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How many candidates fail screening?",
+    "result": "8 annual salary candidates are outside the baseline.",
+    "sample_size": 56004,
+    "evidence": "query_31.csv",
+    "interpretation": "The baseline can remove valid atypical compensation.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Inspect exclusions for part-time and leadership roles.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "What geography is observed?",
+    "result": "1 search-target country: United States",
+    "sample_size": 56004,
+    "evidence": "query_03.csv",
+    "interpretation": "This does not establish global workplace coverage.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Treat the sample as US search coverage.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How many records explicitly report remote work?",
+    "result": "25,053 observations; 44.73%.",
+    "sample_size": 56004,
+    "evidence": "query_08.csv",
+    "interpretation": "The denominator includes Unknown.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Use positively identified remote records.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How much arrangement information is unknown?",
+    "result": "30,951 records.",
+    "sample_size": 56004,
+    "evidence": "query_08.csv",
+    "interpretation": "Missing flags cannot provide an onsite control.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Do not infer onsite employment from a blank flag.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How many employers are represented?",
+    "result": "13,177 normalized names.",
+    "sample_size": 56004,
+    "evidence": "query_02.csv",
+    "interpretation": "Normalized names are not verified legal entities.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Check employer identity and subsidiaries.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How many rows have no parsed skill?",
+    "result": "12,085 records.",
+    "sample_size": 56004,
+    "evidence": "query_26.csv",
+    "interpretation": "Empty extracted lists do not prove no skills are required.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Read source descriptions before drawing conclusions.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How frequent is sql?",
+    "result": "28,081 observations (50.14%); 4,072 usable salaries.",
+    "sample_size": 56004,
+    "evidence": "query_18.csv",
+    "interpretation": "sql is present in the extracted skill vocabulary.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Prepare a portfolio example when the skill matches your target roles.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How frequent is excel?",
+    "result": "17,867 observations (31.90%); 2,681 usable salaries.",
+    "sample_size": 56004,
+    "evidence": "query_18.csv",
+    "interpretation": "excel is present in the extracted skill vocabulary.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Prepare a portfolio example when the skill matches your target roles.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How frequent is python?",
+    "result": "17,050 observations (30.44%); 2,221 usable salaries.",
+    "sample_size": 56004,
+    "evidence": "query_18.csv",
+    "interpretation": "python is present in the extracted skill vocabulary.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Prepare a portfolio example when the skill matches your target roles.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How frequent is tableau?",
+    "result": "15,266 observations (27.26%); 2,330 usable salaries.",
+    "sample_size": 56004,
+    "evidence": "query_18.csv",
+    "interpretation": "tableau is present in the extracted skill vocabulary.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Prepare a portfolio example when the skill matches your target roles.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How frequent is power_bi?",
+    "result": "14,531 observations (25.95%); 1,944 usable salaries.",
+    "sample_size": 56004,
+    "evidence": "query_18.csv",
+    "interpretation": "power_bi is present in the extracted skill vocabulary.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Prepare a portfolio example when the skill matches your target roles.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How frequent is r?",
+    "result": "10,312 observations (18.41%); 1,357 usable salaries.",
+    "sample_size": 56004,
+    "evidence": "query_18.csv",
+    "interpretation": "r is present in the extracted skill vocabulary.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Prepare a portfolio example when the skill matches your target roles.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How common is Mid-Level (inferred)?",
+    "result": "41,438 observations; 7,053 usable salaries; median 81,494 source units.",
+    "sample_size": 56004,
+    "evidence": "query_10.csv",
+    "interpretation": "Title keywords infer experience; years of experience are not verified.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Confirm actual requirements from descriptions.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How common is Senior?",
+    "result": "8,772 observations; 1,262 usable salaries; median 96,500 source units.",
+    "sample_size": 56004,
+    "evidence": "query_10.csv",
+    "interpretation": "Title keywords infer experience; years of experience are not verified.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Confirm actual requirements from descriptions.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How common is Lead/Manager?",
+    "result": "3,579 observations; 413 usable salaries; median 125,000 source units.",
+    "sample_size": 56004,
+    "evidence": "query_10.csv",
+    "interpretation": "Title keywords infer experience; years of experience are not verified.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Confirm actual requirements from descriptions.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "How common is Junior/Entry?",
+    "result": "2,215 observations; 294 usable salaries; median 52,000 source units.",
+    "sample_size": 56004,
+    "evidence": "query_10.csv",
+    "interpretation": "Title keywords infer experience; years of experience are not verified.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Confirm actual requirements from descriptions.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "Which company_name has highest observed volume?",
+    "result": "upwork: 6,572 observations.",
+    "sample_size": 56004,
+    "evidence": "query_16.csv",
+    "interpretation": "Volume can reflect collection and reposting.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Use counts as a starting point for further research.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  },
+  {
+    "question": "Which platform has highest observed volume?",
+    "result": "linkedin: 20,066 observations.",
+    "sample_size": 56004,
+    "evidence": "query_13.csv",
+    "interpretation": "Volume can reflect collection and reposting.",
+    "caveat": "Historical, nonrandom snapshot. Source currency unverified. Salary disclosure and collection coverage can bias results; associations are not causal.",
+    "job_seeker_recommendation": "Use counts as a starting point for further research.",
+    "recruiter_recommendation": "Verify target-role relevance, currency, geography and current hiring context before acting."
+  }
+]

@@ -1,0 +1,68 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+Dataset/raw/*.csv
+*.log
+
+# Python environments, bytecode, test and build caches
+venv/
+env/
+.python-version
+*.py[cod]
+*$py.class
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+build/
+dist/
+*.egg-info/
+
+# Credentials and local configuration (examples may be versioned)
+.env.*
+!.env.example
+!.env.sample
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Preserve genuine data locally; reacquire/import through the documented pipeline.
+# Raw source exceeds GitHub's per-file limit; snapshot license is unverified.
+Dataset/raw/
+Dataset/processed/
+Dataset/current.json
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Machine-specific delivery and execution metadata
+/DELIVERY_MANIFEST.md
+/SHA256SUMS.json
+/Report/tests.xml
+
+# OS, editors and temporary work
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+work/
+tmp/
+
+# Retain source, SQL, charts, screenshots, Excel and academic reports.
+# No blanket exclusions for images, CSV query results, DOCX, PDF or XLSX.
+# Original validation metadata includes the local machine hostname.
+/Report/final_validation.json

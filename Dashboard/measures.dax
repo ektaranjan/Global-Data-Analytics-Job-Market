@@ -1,0 +1,17 @@
+Total Postings = COUNTROWS(job_postings_fact)
+Average Salary = AVERAGE(job_postings_fact[salary_year_avg])
+Median Salary = MEDIAN(job_postings_fact[salary_year_avg])
+Salary N = COUNT(job_postings_fact[salary_year_avg])
+Usable Salary Coverage = DIVIDE([Salary N], [Total Postings])
+Remote Jobs = CALCULATE([Total Postings], job_postings_fact[remote_status] = "Remote")
+Remote Share = DIVIDE([Remote Jobs], [Total Postings])
+Unknown Arrangement = CALCULATE([Total Postings], job_postings_fact[remote_status] = "Unknown")
+Skill Demand = DISTINCTCOUNT(skills_job_dim[job_id])
+Skill Salary N = CALCULATE([Salary N], TREATAS(VALUES(skills_job_dim[job_id]), job_postings_fact[job_id]))
+Skill Mean Salary = CALCULATE([Average Salary], TREATAS(VALUES(skills_job_dim[job_id]), job_postings_fact[job_id]))
+Optimal Skill Flag = IF([Skill Demand] >= 100 && [Skill Salary N] >= 30 && [Skill Mean Salary] >= CALCULATE([Median Salary], REMOVEFILTERS(skills_dim)), 1, 0)
+// Calculated table: use observation dates, not verified original posting dates.
+Date = CALENDAR(MIN(job_postings_fact[observation_date]), MAX(job_postings_fact[observation_date]))
+// Calculated column after converting observation_date to Date type:
+Observation Year = YEAR(job_postings_fact[observation_date])
+Observation Month = FORMAT(job_postings_fact[observation_date], "yyyy-MM")
