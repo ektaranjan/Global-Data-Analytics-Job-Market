@@ -1,5 +1,6 @@
 # Final verification — 21 October 2026
 
+The existing project was preserved and prepared for local demonstration. Changes include a dependency-checking macOS launcher, beginner setup instructions, a 10–12 minute demonstration guide, refreshed interface branding, genuine browser screenshots, four implementation diagrams, and a new professional report. Git history remains available.
 
 ## Deliverables
 
