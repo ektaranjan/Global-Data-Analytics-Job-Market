@@ -1,0 +1,115 @@
+{
+  "total_target_pages": 30,
+  "front_matter_pages": 2,
+  "body_page_count": 28,
+  "index": [
+    {
+      "serial": 1,
+      "title": "Abstract",
+      "printed_page": 1,
+      "physical_pdf_page": 3
+    },
+    {
+      "serial": 2,
+      "title": "Introduction",
+      "printed_page": 2,
+      "physical_pdf_page": 4
+    },
+    {
+      "serial": 3,
+      "title": "Literature Review",
+      "printed_page": 4,
+      "physical_pdf_page": 6
+    },
+    {
+      "serial": 4,
+      "title": "System Analysis and Requirements",
+      "printed_page": 6,
+      "physical_pdf_page": 8
+    },
+    {
+      "serial": 5,
+      "title": "Proposed Methodology",
+      "printed_page": 8,
+      "physical_pdf_page": 10
+    },
+    {
+      "serial": 6,
+      "title": "System Design",
+      "printed_page": 13,
+      "physical_pdf_page": 15
+    },
+    {
+      "serial": 7,
+      "title": "Implementation",
+      "printed_page": 16,
+      "physical_pdf_page": 18
+    },
+    {
+      "serial": 8,
+      "title": "Results and Discussion",
+      "printed_page": 20,
+      "physical_pdf_page": 22
+    },
+    {
+      "serial": 9,
+      "title": "Advantages",
+      "printed_page": 24,
+      "physical_pdf_page": 26
+    },
+    {
+      "serial": 10,
+      "title": "Limitations",
+      "printed_page": 25,
+      "physical_pdf_page": 27
+    },
+    {
+      "serial": 11,
+      "title": "Future Scope",
+      "printed_page": 26,
+      "physical_pdf_page": 28
+    },
+    {
+      "serial": 12,
+      "title": "Conclusion",
+      "printed_page": 27,
+      "physical_pdf_page": 29
+    },
+    {
+      "serial": 13,
+      "title": "References",
+      "printed_page": 28,
+      "physical_pdf_page": 30
+    }
+  ],
+  "body_page_titles": [
+    "Abstract",
+    "Introduction",
+    "Introduction continued",
+    "Literature Review",
+    "Literature Review continued",
+    "System Analysis and Requirements",
+    "System Analysis and Requirements continued",
+    "Proposed Methodology",
+    "Proposed Methodology continued",
+    "Proposed Methodology salary preparation",
+    "Proposed Methodology feature engineering",
+    "Proposed Methodology analytical definitions",
+    "System Design",
+    "System Design relational storage",
+    "System Design refresh and security",
+    "Implementation",
+    "Implementation filtering and exploration",
+    "Implementation read only SQL",
+    "Implementation exports and local operation",
+    "Results and Discussion",
+    "Results and Discussion salary evidence",
+    "Results and Discussion skill evidence",
+    "Results and Discussion verification",
+    "Advantages",
+    "Limitations",
+    "Future Scope",
+    "Conclusion",
+    "References"
+  ]
+}

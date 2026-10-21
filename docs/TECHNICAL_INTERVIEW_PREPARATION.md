@@ -8,4 +8,4 @@ Be prepared to derive the SQL median using row positions, explain LAG for observ
 
 Resume description: Built a Python and Streamlit job-market analytics pipeline using a genuine Kaggle snapshot, normalized SQLite tables, read-only SQL analytics, salary provenance, data-quality monitoring and reproducible exports. State executed test and query counts only after reading the evidence files.
 
-GitHub description: Reproducible MCA analytics project with transparent snapshot provenance, normalized job/skill data, interactive filters, sample-qualified salary analysis and documented limitations. No paid API or production cloud database required for local operation.
+GitHub description: Reproducible job market analytics project with transparent snapshot provenance, normalized job/skill data, interactive filters, sample-qualified salary analysis and documented limitations. No paid API or production cloud database required for local operation.

@@ -1,0 +1,716 @@
+{
+  "python": "3.14.3",
+  "machine": "arm64",
+  "platform": "Darwin",
+  "packages": {
+    "streamlit": "1.66.0",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "sqlalchemy": "2.1.5",
+    "plotly": "7.1.0",
+    "scipy": "1.18.1",
+    "pytest": "9.1.1",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "openpyxl": "3.1.5",
+    "reportlab": "5.0.1",
+    "python-docx": "1.2.0"
+  },
+  "kpis": {
+    "Postings": 56004,
+    "Companies": 13177,
+    "Search countries": 1,
+    "Skills": 134,
+    "Median salary": 88400.0,
+    "Mean salary": 92131.0426923077,
+    "Remote %": 44.73430469252197,
+    "Usable salary %": 16.109563602599813
+  },
+  "skill_top": [
+    {
+      "skill": "sql",
+      "demand": 28081,
+      "salary_n": 4072,
+      "mean_salary": 97293.29432711199,
+      "median_salary": 96500.0,
+      "skill_type": "programming",
+      "optimal": true
+    },
+    {
+      "skill": "excel",
+      "demand": 17867,
+      "salary_n": 2681,
+      "mean_salary": 83343.371538605,
+      "median_salary": 80000.18,
+      "skill_type": "analyst_tools",
+      "optimal": false
+    },
+    {
+      "skill": "python",
+      "demand": 17050,
+      "salary_n": 2221,
+      "mean_salary": 104465.38432913102,
+      "median_salary": 100000.0,
+      "skill_type": "programming",
+      "optimal": true
+    },
+    {
+      "skill": "tableau",
+      "demand": 15266,
+      "salary_n": 2330,
+      "mean_salary": 96541.26813733905,
+      "median_salary": 96500.0,
+      "skill_type": "analyst_tools",
+      "optimal": true
+    },
+    {
+      "skill": "power_bi",
+      "demand": 14531,
+      "salary_n": 1944,
+      "mean_salary": 91966.09711162551,
+      "median_salary": 90000.0,
+      "skill_type": "analyst_tools",
+      "optimal": true
+    },
+    {
+      "skill": "r",
+      "demand": 10312,
+      "salary_n": 1357,
+      "mean_salary": 100625.08831613854,
+      "median_salary": 100000.0,
+      "skill_type": "programming",
+      "optimal": true
+    },
+    {
+      "skill": "sas",
+      "demand": 4840,
+      "salary_n": 635,
+      "mean_salary": 89356.4046456693,
+      "median_salary": 90000.0,
+      "skill_type": "programming",
+      "optimal": true
+    },
+    {
+      "skill": "powerpoint",
+      "demand": 3967,
+      "salary_n": 563,
+      "mean_salary": 87169.30708703375,
+      "median_salary": 88500.0,
+      "skill_type": "other",
+      "optimal": false
+    },
+    {
+      "skill": "word",
+      "demand": 3927,
+      "salary_n": 533,
+      "mean_salary": 79012.46555347092,
+      "median_salary": 76000.0,
+      "skill_type": "other",
+      "optimal": false
+    },
+    {
+      "skill": "azure",
+      "demand": 3479,
+      "salary_n": 470,
+      "mean_salary": 101680.0384361702,
+      "median_salary": 100000.0,
+      "skill_type": "cloud",
+      "optimal": true
+    },
+    {
+      "skill": "snowflake",
+      "demand": 3302,
+      "salary_n": 472,
+      "mean_salary": 111793.37012711864,
+      "median_salary": 105000.0,
+      "skill_type": "databases",
+      "optimal": true
+    },
+    {
+      "skill": "aws",
+      "demand": 3266,
+      "salary_n": 500,
+      "mean_salary": 113690.16943000001,
+      "median_salary": 105512.5,
+      "skill_type": "cloud",
+      "optimal": true
+    },
+    {
+      "skill": "spark",
+      "demand": 2816,
+      "salary_n": 236,
+      "mean_salary": 122520.9758262712,
+      "median_salary": 110640.0,
+      "skill_type": "other",
+      "optimal": true
+    },
+    {
+      "skill": "looker",
+      "demand": 2408,
+      "salary_n": 326,
+      "mean_salary": 103423.87868098161,
+      "median_salary": 100000.0,
+      "skill_type": "analyst_tools",
+      "optimal": true
+    },
+    {
+      "skill": "go",
+      "demand": 2152,
+      "salary_n": 299,
+      "mean_salary": 92704.71608695653,
+      "median_salary": 87000.0,
+      "skill_type": "other",
+      "optimal": true
+    }
+  ],
+  "experience": [
+    {
+      "experience_level": "Mid-Level (inferred)",
+      "postings": 41438,
+      "salary_n": 7053,
+      "median_salary": 81494.40000000001,
+      "mean_salary": 89044.23991209414,
+      "remote_pct": 46.96655243978957
+    },
+    {
+      "experience_level": "Senior",
+      "postings": 8772,
+      "salary_n": 1262,
+      "median_salary": 96500.0,
+      "mean_salary": 107139.7008637084,
+      "remote_pct": 38.12129502963976
+    },
+    {
+      "experience_level": "Lead/Manager",
+      "postings": 3579,
+      "salary_n": 413,
+      "median_salary": 125000.0,
+      "mean_salary": 123463.22639225182,
+      "remote_pct": 34.05979323833473
+    },
+    {
+      "experience_level": "Junior/Entry",
+      "postings": 2215,
+      "salary_n": 294,
+      "median_salary": 52000.0,
+      "mean_salary": 57743.63292517006,
+      "remote_pct": 46.410835214446955
+    }
+  ],
+  "remote": [
+    {
+      "remote_status": "Unknown",
+      "postings": 30951,
+      "salary_n": 3459,
+      "median_salary": 92000.0,
+      "mean_salary": 91856.61524718127,
+      "remote_pct": 0.0
+    },
+    {
+      "remote_status": "Remote",
+      "postings": 25053,
+      "salary_n": 5563,
+      "median_salary": 85280.0,
+      "mean_salary": 92301.67805680388,
+      "remote_pct": 100.0
+    }
+  ],
+  "companies_top": [
+    {
+      "company_name": "upwork",
+      "postings": 6572,
+      "salary_n": 3143,
+      "median_salary": 69680.0,
+      "mean_salary": 83681.8412981228,
+      "remote_pct": 99.66524650030432
+    },
+    {
+      "company_name": "talentify.io",
+      "postings": 1806,
+      "salary_n": 144,
+      "median_salary": 95234.2,
+      "mean_salary": 100187.82774305556,
+      "remote_pct": 99.94462901439645
+    },
+    {
+      "company_name": "walmart",
+      "postings": 1617,
+      "salary_n": 56,
+      "median_salary": 100000.0,
+      "mean_salary": 109312.5,
+      "remote_pct": 0.3710575139146568
+    },
+    {
+      "company_name": "vmysmartpros",
+      "postings": 1406,
+      "salary_n": 0,
+      "median_salary": NaN,
+      "mean_salary": NaN,
+      "remote_pct": 100.0
+    },
+    {
+      "company_name": "dice",
+      "postings": 743,
+      "salary_n": 1,
+      "median_salary": 107500.0,
+      "mean_salary": 107500.0,
+      "remote_pct": 94.07806191117093
+    },
+    {
+      "company_name": "edward jones",
+      "postings": 738,
+      "salary_n": 156,
+      "median_salary": 103781.0,
+      "mean_salary": 111280.5032051282,
+      "remote_pct": 0.8130081300813009
+    },
+    {
+      "company_name": "corporate",
+      "postings": 547,
+      "salary_n": 1,
+      "median_salary": 58240.0,
+      "mean_salary": 58240.0,
+      "remote_pct": 0.7312614259597806
+    },
+    {
+      "company_name": "cox communications",
+      "postings": 511,
+      "salary_n": 430,
+      "median_salary": 96500.0,
+      "mean_salary": 96866.16279069768,
+      "remote_pct": 0.0
+    },
+    {
+      "company_name": "insight global",
+      "postings": 431,
+      "salary_n": 147,
+      "median_salary": 104000.0,
+      "mean_salary": 102430.3768367347,
+      "remote_pct": 53.82830626450116
+    },
+    {
+      "company_name": "isay",
+      "postings": 320,
+      "salary_n": 0,
+      "median_salary": NaN,
+      "mean_salary": NaN,
+      "remote_pct": 0.0
+    }
+  ],
+  "salary_percentiles": {
+    "0.1": 43680.0,
+    "0.25": 62400.0,
+    "0.5": 88400.0,
+    "0.75": 116812.5,
+    "0.9": 145000.0
+  },
+  "sql_queries": 38,
+  "remote_statuses": {
+    "Unknown": 30951,
+    "Remote": 25053
+  },
+  "database_integrity": "ok",
+  "foreign_key_violations": 0,
+  "database_counts": {
+    "company_dim": 13177,
+    "job_postings_fact": 56004,
+    "skills_dim": 134,
+    "skills_job_dim": 181468
+  },
+  "snapshot": {
+    "raw_records": 61953,
+    "clean_records": 56004,
+    "exact_duplicates_removed": 0,
+    "composite_duplicates_removed": 5949,
+    "invalid_salary": 8,
+    "missing_salary": 46974,
+    "sha256": "ed3cfff4553b6d462ff0722fc652ce8648f7a56a8157d795f43db4188554bd6a",
+    "snapshot_start": "2022-11-04",
+    "snapshot_end": "2025-04-18",
+    "license": "Unverified; confirm dataset license before redistribution",
+    "currency": "Unverified; no cross-currency comparison justified"
+  },
+  "tests": {
+    "tests": "85",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "21.207"
+  },
+  "sql_validation": [
+    {
+      "id": 1,
+      "rows": 1,
+      "columns": [
+        "postings"
+      ],
+      "seconds": 0.03137745801359415
+    },
+    {
+      "id": 2,
+      "rows": 1,
+      "columns": [
+        "companies"
+      ],
+      "seconds": 0.0026010000001406297
+    },
+    {
+      "id": 3,
+      "rows": 1,
+      "columns": [
+        "job_country",
+        "postings"
+      ],
+      "seconds": 0.024928667000494897
+    },
+    {
+      "id": 4,
+      "rows": 1,
+      "columns": [
+        "skills"
+      ],
+      "seconds": 0.0011363330122549087
+    },
+    {
+      "id": 5,
+      "rows": 1,
+      "columns": [
+        "mean_salary",
+        "salary_n"
+      ],
+      "seconds": 0.030046750005567446
+    },
+    {
+      "id": 6,
+      "rows": 1,
+      "columns": [
+        "median_salary"
+      ],
+      "seconds": 0.00833758398948703
+    },
+    {
+      "id": 7,
+      "rows": 1,
+      "columns": [
+        "usable_pct"
+      ],
+      "seconds": 0.0031362909940071404
+    },
+    {
+      "id": 8,
+      "rows": 2,
+      "columns": [
+        "remote_status",
+        "postings"
+      ],
+      "seconds": 0.007600625001941808
+    },
+    {
+      "id": 9,
+      "rows": 50,
+      "columns": [
+        "job_id",
+        "job_title",
+        "observation_date"
+      ],
+      "seconds": 0.0003901250020135194
+    },
+    {
+      "id": 10,
+      "rows": 4,
+      "columns": [
+        "experience_level",
+        "postings",
+        "salary_n",
+        "mean_salary"
+      ],
+      "seconds": 0.012382207991322502
+    },
+    {
+      "id": 11,
+      "rows": 1,
+      "columns": [
+        "job_country",
+        "postings",
+        "salary_n",
+        "mean_salary"
+      ],
+      "seconds": 0.005561499987379648
+    },
+    {
+      "id": 12,
+      "rows": 33,
+      "columns": [
+        "employment_type",
+        "postings",
+        "salary_n",
+        "mean_salary"
+      ],
+      "seconds": 0.009707958000944927
+    },
+    {
+      "id": 13,
+      "rows": 922,
+      "columns": [
+        "platform",
+        "postings",
+        "salary_n",
+        "mean_salary"
+      ],
+      "seconds": 0.010685333007131703
+    },
+    {
+      "id": 14,
+      "rows": 5,
+      "columns": [
+        "salary_band",
+        "postings",
+        "salary_n",
+        "mean_salary"
+      ],
+      "seconds": 0.009099125003558584
+    },
+    {
+      "id": 15,
+      "rows": 2,
+      "columns": [
+        "remote_status",
+        "postings",
+        "salary_n",
+        "mean_salary"
+      ],
+      "seconds": 0.008938792001572438
+    },
+    {
+      "id": 16,
+      "rows": 13177,
+      "columns": [
+        "company_name",
+        "postings",
+        "company_rank"
+      ],
+      "seconds": 0.013660957993124612
+    },
+    {
+      "id": 17,
+      "rows": 16,
+      "columns": [
+        "company_name",
+        "salary_n",
+        "mean_salary"
+      ],
+      "seconds": 0.02429541599121876
+    },
+    {
+      "id": 18,
+      "rows": 134,
+      "columns": [
+        "skill",
+        "demand"
+      ],
+      "seconds": 0.05812079200404696
+    },
+    {
+      "id": 19,
+      "rows": 66,
+      "columns": [
+        "skill",
+        "salary_n",
+        "mean_salary"
+      ],
+      "seconds": 0.09764283400727436
+    },
+    {
+      "id": 20,
+      "rows": 53,
+      "columns": [
+        "skill",
+        "demand",
+        "salary_n",
+        "mean_salary"
+      ],
+      "seconds": 0.09372137500031386
+    },
+    {
+      "id": 21,
+      "rows": 30,
+      "columns": [
+        "skill_a",
+        "skill_b",
+        "pair_count"
+      ],
+      "seconds": 0.3043692089995602
+    },
+    {
+      "id": 22,
+      "rows": 2318,
+      "columns": [
+        "company_id",
+        "job_title",
+        "salary_year_avg"
+      ],
+      "seconds": 0.03418691699334886
+    },
+    {
+      "id": 23,
+      "rows": 9022,
+      "columns": [
+        "job_id",
+        "salary_year_avg",
+        "salary_quartile"
+      ],
+      "seconds": 0.011019249999662861
+    },
+    {
+      "id": 24,
+      "rows": 29,
+      "columns": [
+        "posted_month",
+        "postings",
+        "previous",
+        "change_pct"
+      ],
+      "seconds": 0.009319375007180497
+    },
+    {
+      "id": 25,
+      "rows": 4,
+      "columns": [
+        "experience_level",
+        "mean_salary",
+        "salary_n",
+        "differential_pct"
+      ],
+      "seconds": 0.012610582998604514
+    },
+    {
+      "id": 26,
+      "rows": 12085,
+      "columns": [
+        "job_id",
+        "job_title"
+      ],
+      "seconds": 0.04583429198828526
+    },
+    {
+      "id": 27,
+      "rows": 6,
+      "columns": [
+        "skill_type",
+        "postings"
+      ],
+      "seconds": 0.09211137499369215
+    },
+    {
+      "id": 28,
+      "rows": 4279,
+      "columns": [
+        "job_id",
+        "salary_year_avg"
+      ],
+      "seconds": 0.015246583003317937
+    },
+    {
+      "id": 29,
+      "rows": 13177,
+      "columns": [
+        "company_id",
+        "remote_jobs",
+        "unknown_jobs",
+        "postings"
+      ],
+      "seconds": 0.03302620899921749
+    },
+    {
+      "id": 30,
+      "rows": 2,
+      "columns": [
+        "salary_source",
+        "postings",
+        "valid_salaries"
+      ],
+      "seconds": 0.009224416004144587
+    },
+    {
+      "id": 31,
+      "rows": 1,
+      "columns": [
+        "invalid_salary"
+      ],
+      "seconds": 0.003188000002410263
+    },
+    {
+      "id": 32,
+      "rows": 30,
+      "columns": [
+        "location",
+        "postings"
+      ],
+      "seconds": 0.00902358400344383
+    },
+    {
+      "id": 33,
+      "rows": 10859,
+      "columns": [
+        "company_name"
+      ],
+      "seconds": 0.027734791990951635
+    },
+    {
+      "id": 34,
+      "rows": 26,
+      "columns": [
+        "skill_count",
+        "postings"
+      ],
+      "seconds": 0.027509749997989275
+    },
+    {
+      "id": 35,
+      "rows": 129,
+      "columns": [
+        "skill",
+        "postings"
+      ],
+      "seconds": 0.033267957987845875
+    },
+    {
+      "id": 36,
+      "rows": 29,
+      "columns": [
+        "posted_month",
+        "postings",
+        "coverage_pct"
+      ],
+      "seconds": 0.009902042002067901
+    },
+    {
+      "id": 37,
+      "rows": 8,
+      "columns": [
+        "experience_level",
+        "remote_status",
+        "postings"
+      ],
+      "seconds": 0.01814154199382756
+    },
+    {
+      "id": 38,
+      "rows": 1,
+      "columns": [
+        "minimum",
+        "maximum"
+      ],
+      "seconds": 0.003393791994312778
+    }
+  ],
+  "offline_test": {
+    "outbound_policy": "Only loopback and Unix-domain sockets permitted in the test Python process",
+    "blocked_external_attempts": [],
+    "exit_code": 0,
+    "scope_limit": "Does not disable the operating system network or validate browser-fetched Plotly map assets."
+  },
+  "verified_url": "http://127.0.0.1:8501",
+  "launcher": "Preflight and failure cases tested. Fresh listening-server start from the preparation tool blocked by socket permission; existing live server browser-verified.",
+  "changes_pushed": false
+}

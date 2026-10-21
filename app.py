@@ -1,4 +1,4 @@
-"""MCA snapshot analytics application. Launch with streamlit run app.py."""
+"""Job-market snapshot analytics. Launch with streamlit run app.py."""
 import io,json,tempfile,zipfile
 from pathlib import Path
 import numpy as np
@@ -8,10 +8,9 @@ import streamlit as st
 from src.pipeline import ROOT,load,run,current_folder,category
 from src.analytics import filter_data,kpis,skill_stats,grouped,cooccurrence
 from src.sql_lab import QUERIES,execute
-st.set_page_config(page_title='Market Intelligence | MCA',page_icon='📊',layout='wide')
+st.set_page_config(page_title='Global Data Analytics Job Market Intelligence & Salary Trend Dashboard',page_icon='📊',layout='wide')
 PAGES=['Executive Command Center','Salary Intelligence','Skill Demand Intelligence','Global Geographic Intelligence','Company Intelligence','Remote Work Intelligence','Data Explorer','Data Quality and Pipeline Monitor','SQL Analytics Lab','Reports and Download Center','Project Documentation and About']
-st.logo if False else None
-st.sidebar.caption('MCA • ANALYTICS WORKSPACE')
+st.sidebar.caption('JOB MARKET • ANALYTICS WORKSPACE')
 st.sidebar.title('Market Intelligence')
 page=st.sidebar.radio('Workspace',PAGES,key='page')
 light=st.sidebar.toggle('Light presentation',value=False)

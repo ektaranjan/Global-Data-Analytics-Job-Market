@@ -1,0 +1,20 @@
+{
+  "pdf_pages": 30,
+  "docx_rendered_pages": 30,
+  "front_matter_pages": 2,
+  "printed_body_pages": 28,
+  "index_columns": [
+    "S.No.",
+    "Title",
+    "Page No."
+  ],
+  "index_sections": 13,
+  "all_index_targets_match": true,
+  "body_numbering_verified": true,
+  "prohibited_report_label_matches": 0,
+  "figures": 9,
+  "numbered_tables": 18,
+  "editable_document": true,
+  "visual_review": "Every final page inspected separately after rendering",
+  "render_engine": "Bundled LibreOffice through render_docx.py; DOCX/PDF layout checked in that engine"
+}
